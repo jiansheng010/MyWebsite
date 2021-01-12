@@ -1,0 +1,29 @@
+.mat-toolbar {
+  background-color: white;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.mat-flat-button {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#nav {
+  position: relative;
+  top: 3%;
+  right: 3%;
+}
+
+.active {
+  color: #6D64A4;
+}

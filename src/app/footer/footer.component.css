@@ -1,0 +1,28 @@
+img {
+  width: 40px;
+  height: 40px;
+}
+
+.mat-toolbar {
+  background-color: white;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-left: 15px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+#contact {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+}

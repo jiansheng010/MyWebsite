@@ -1,0 +1,18 @@
+#intro {
+  font-family: Inter, sans-serif;
+  position: fixed;
+  top: 40%;
+  left: 20%;
+  text-anchor: middle;
+
+}
+
+.intro-top {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.intro-bottom {
+  font-size: 24px;
+  font-weight: bold;
+}
