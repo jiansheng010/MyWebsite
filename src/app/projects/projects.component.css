@@ -1,0 +1,15 @@
+.project-card {
+  max-width: 800px;
+  margin: 50px;
+  top: 10%;
+  left: 15%;
+}
+
+.header-image {
+  background-image: url("https://www.logolynx.com/images/logolynx/96/96ca25bf3f11b4bd9462e6fd9363d83b.jpeg");
+  background-size: cover;
+}
+
+.mat-card-title {
+  color: #6D64A4;
+}

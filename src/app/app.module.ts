@@ -13,6 +13,8 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -23,15 +25,17 @@ import { ProjectsComponent } from './projects/projects.component';
     FooterComponent,
     ProjectsComponent
   ],
-    imports: [
-        BrowserModule,
-        BrowserAnimationsModule,
-        MatListModule,
-        MatToolbarModule,
-        MatButtonModule,
-        RouterModule,
-        AppRoutingModule
-    ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatListModule,
+    MatToolbarModule,
+    MatButtonModule,
+    RouterModule,
+    AppRoutingModule,
+    MatCardModule,
+    MatGridListModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Title} from '@angular/platform-browser';
 
 @Component({
@@ -11,6 +11,7 @@ export class HomeComponent implements OnInit {
   constructor(private titleService: Title) { }
 
   ngOnInit(): void {
+    // this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#272727';
   }
 
   // tslint:disable-next-line:typedef
