@@ -13,3 +13,9 @@
 .mat-card-title {
   color: #6D64A4;
 }
+
+.top-button {
+  position: fixed;
+  bottom: 15%;
+  right: 4%;
+}
