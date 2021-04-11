@@ -1,18 +1,22 @@
-#intro {
-  font-family: Inter, sans-serif;
-  position: fixed;
-  top: 40%;
-  left: 20%;
-  text-anchor: middle;
-
+.intro-top {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-left: 100px;
 }
 
-.intro-top {
-  font-size: 45px;
-  font-weight: bold;
+.intro-top-first {
+  margin-bottom: 35px;
 }
 
 .intro-bottom {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
+  position: relative;
+  top: 20px;
+  margin-left: 100px;
+}
+
+.something-i-am {
+  color: #6D64A4;
 }
