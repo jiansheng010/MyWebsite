@@ -8,3 +8,10 @@
 .line {
   margin-bottom: 100px !important;
 }
+
+.bottom-line {
+  margin-top: 99px;
+  border: 1px none rgba(0, 0, 0, 0.38);
+  border-top-style: solid;
+  padding: 10px;
+}

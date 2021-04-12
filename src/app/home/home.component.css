@@ -6,6 +6,7 @@
 }
 
 .intro-top-first {
+  margin-top: 190px;
   margin-bottom: 35px;
 }
 
@@ -19,4 +20,49 @@
 
 .something-i-am {
   color: #6D64A4;
+}
+
+.bottom-line {
+  margin-top: 105px;
+  border: 1px none rgba(0, 0, 0, 0.38);
+  border-top-style: solid;
+  padding: 10px;
+}
+
+.columns {
+  display: flex;
+}
+
+.left-column {
+  float: left;
+  width: 2300px;
+}
+
+.right-column {
+  float: right;
+  width: 550px;
+  margin-top: 100px;
+}
+
+.inner-column {
+  float: right;
+  width: 100px;
+  margin-right: 50px;
+}
+
+.programming-logo-div {
+  margin: 10px;
+}
+
+.programming-logo {
+  width: 48px;
+  height: 48px;
+  margin: 5px;
+  align-items: center;
+}
+
+.programming-logo-angular {
+  width: 58px;
+  height: 58px;
+  align-items: center;
 }

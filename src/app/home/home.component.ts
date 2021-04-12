@@ -14,10 +14,17 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     // this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#272727';
 
+    const hiItsMe = document.querySelector('.intro-top-first');
     const myName = document.querySelector('.my-name');
     const somethingIAm = document.querySelector('.something-i-am');
 
-    const options = {
+    const optionsRegularOnce = {
+      loop: false,
+      typeSpeed: 50,
+      cursorColor: 'white',
+    };
+
+    const optionsRetractLoopWithoutCursor = {
       loop: true,
       typeSpeed: 100,
       deleteSpeed: 50,
@@ -25,8 +32,24 @@ export class HomeComponent implements OnInit {
       cursorColor: 'white',
     };
 
-    const myNameWriter = new Typewriter(myName, options);
-    const somethingIAmWriter = new Typewriter(somethingIAm, options);
+    const optionsRetractLoopWithCursor = {
+      loop: true,
+      typeSpeed: 100,
+      deleteSpeed: 50,
+      typeColor: '#6D64A4',
+    };
+
+    const hiItsMeWriter = new Typewriter(hiItsMe, optionsRegularOnce);
+    const myNameWriter = new Typewriter(
+      myName,
+      optionsRetractLoopWithoutCursor
+    );
+    const somethingIAmWriter = new Typewriter(
+      somethingIAm,
+      optionsRetractLoopWithCursor
+    );
+
+    hiItsMeWriter.type("Hi, it's me,").start();
 
     myNameWriter.strings(3000, 'Jian Sheng Teoh', '张 建 盛').start();
 
